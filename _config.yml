@@ -6,11 +6,11 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 임수빈
+title: Backend Engineer
+email: tncksrhd@naver.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 010-9073-5635
 # phone_title: Phone (Phone title override)
 website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
@@ -18,15 +18,7 @@ website: Your website (eg. https://google.com)(optional)
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
+linkedin_username: LimSuBBiin
 xing_username: jekyll
 pinterest_username: jekyll
 youtube_username: jekyll
@@ -80,7 +72,7 @@ content:
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Description about the work on/with the project1234
   - title: Experience
     layout: list
     content:

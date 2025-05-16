@@ -50,35 +50,23 @@ about_content: | # this will include new lines to allow paragraphs
   팀원들과 즐겁게 커뮤니케이션하기를 기대합니다.
 
 content:
+  - title: 기술 스택 # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+#        border: weak  # Value of `weak` will display a weak border below this item. # Any
+                      # other value (or no value) means no border will be displayed
   - title: 기술 스택
     layout: text
     content: |
-      ### Backend
-      
-      많이 해봤어요 | 해본 적 있어요
-      --- | ---
-      Java | JavaScript
-      SpringBoot 3.x | ReactJS
-      Spring Security 6 | MSA
-      
-      ### Framework / Build
-      
-      많이 해봤어요 | 해본 적 있어요
-      --- | ---
-      JPA | AWS Lambda
-      Gradle, Maven | 
-      
-      ### RDBMS
-      
-      많이 해봤어요 | 해본 적 있어요
-      --- | ---
-      MySQL | Oracle
-      
-      ### DevOps
-      
-      많이 해봤어요 | 해본 적 있어요
-      --- | ---
-      Git | AWS
+      많이 해봤어요 | 해본 적 있어요   
+      - Java            | - JavaScript
+      - SpringBoot 3.x  | - ReactJS
+      - Spring Security 6 | - Oracle
+      - JPA               | - MSA (Microsoft Architecture)
+      - Gradle, Maven     | - AWS
+      - MySQL
+      - Git
 
   - title: Experience
     layout: list

@@ -56,17 +56,38 @@ content:
       - layout: left
 #        border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
-  - title: 기술 스택
-    layout: text
-    content: |
-        많이 해봤어요 | 해본 적 있어요   
-      - Java            | - JavaScript
-      - SpringBoot 3.x  | - ReactJS
-      - Spring Security 6 | - Oracle
-      - JPA               | - MSA (Microsoft Architecture)
-      - Gradle, Maven     | - AWS
-      - MySQL
-      - Git
+        title: Backend
+#        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#        link_text: Link Text
+#        additional_links:
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#            icon: fab fa-github
+#            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+#        quote: >
+#          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Java
+          - SpringBoot3.x, Spring Security6 
+          - JPA
+          - Gradle, Maven
+          - IntelliJ
+
+      - layout: left
+        title: DevOps
+        description: |  
+          - MYSQL, Oracle
+          - Git
+
+
+      - layout: left
+        title: Frontend
+        description: |
+          - JavaScript
+          - ReactJS
+
 
   - title: Experience
     layout: list

@@ -75,12 +75,15 @@ content:
           - Gradle, Maven
           - IntelliJ
 
-      - layout: left
-        title: DevOps
-        description: |  
-          - MYSQL, Oracle
-          - Git
 
+
+      - layout: left
+        title: Database
+        description: |  
+          - MYSQL
+          - Oracle
+      
+    
 
       - layout: left
         title: Frontend
@@ -89,29 +92,43 @@ content:
           - ReactJS
 
 
-  - title: Experience
+
+
+
+      - layout: left
+        title: 한번 해본 것들
+        description: |
+          - MariaDB
+          - Postgresql
+          - MSA (Microsoft Architecture)
+          - AWS
+
+
+
+  - title: Education
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        title: 서경대학교 23년도 대학기업 협력형 전문인재 양성 수료
+        sub_title: 서경SW아카데미
+        caption: 23.10.12 ~ 24.12.22
+        link: https://swacademy.skuniv.ac.kr/
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
+          기본 언어 재학습 및 헥토(https://www.hecto.co.kr/)와 연계하여 MSA구조 학습 및 프로젝트 진행
+          
+          
+
+  - title: Experience
     layout: list
     content:
       - layout: top-right
         title: Institution name
         sub_title: Qualifications (eg. BA Performing Arts)
         caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
+          
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs

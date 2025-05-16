@@ -123,7 +123,7 @@ content:
 
 
   - title: Experience(Personal Project)
-    layout: right
+    layout: list
     link : https://github.com/LimSuBBiin/PBT_PROJECT
     content:
       - layout: right

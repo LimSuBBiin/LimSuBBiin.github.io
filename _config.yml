@@ -144,10 +144,11 @@ content:
             - 각각의 팀에서 신청한 시합 일정 캘린더(세부사항)
       
 
-      - layout: list
-          <img src="images/Home.PNG" width="400"/>
-          <img src="images/Calendar.PNG" width="400"/>
-          
+  - layout: left
+    title: 시연 이미지
+    content: |
+      <img src="images/Home.PNG" width="500"/>
+      <img src="images/Calendar.PNG" width="500"/>
 #
 #  - title: A Little More About Me
 #    layout: text

@@ -101,7 +101,7 @@ content:
           - MariaDB
           - Postgresql
           - MSA (Microsoft Architecture)
-          - AWS
+          - AWS  
 
 
 
@@ -121,7 +121,7 @@ content:
          - Spring boot,React 기반 공공데이터를 활용한 웹서비스 개발
          - Spring Cloud 모듈을 활용한 MSA(Micro Service Architecture) 개발 with (주)헥토 
          - https://github.com/LimSuBBiin/frontworkspace
-         - https://github.com/LimSuBBiin/pj_backworkspace 
+         - https://github.com/LimSuBBiin/pj_backworkspace   
 
 
 
@@ -148,24 +148,20 @@ content:
             - 여러 팀 가입 / 각각의 팀 커스텀 설정
             - 시합 생성 및 포지션 선택 신청(PG,SG,SF,F,C)-Modal 기능 구현
             - 내가 생성한 시합, 신청한 시합만 SELECT 기능
-            - 각각의 팀에서 신청한 시합 일정 캘린더(세부사항)
+            - 각각의 팀에서 신청한 시합 일정 캘린더(세부사항)    
           
           
 
 
       - layout: right
         description: |           
-            ![시연이미지](/images/Home.PNG "Home")
+            ![시연이미지](/images/Home.PNG "Home")  
+          
+        
+            ![시연이미지](/images/gameReq.PNG "Home")  
           
           
-          
-          
-            ![시연이미지](/images/gameReq.PNG "Home")
-          
-          
-          
-          
-            ![시연이미지](/images/Calendar.PNG "Home")
+            ![시연이미지](/images/Calendar.PNG "Home")  
 
 #  - title: A Little More About Me
 #    layout: text

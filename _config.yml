@@ -147,12 +147,12 @@ content:
       - layout: left
         title: 시연 이미지
         content: |
-         <img src="images/Home.PNG" width="500"/>
+          - Images ![시연이미지](/images/Home.PNG "Home")
 
       - layout: right
         title: 시연 이미지
         content: |
-          <img src="images/Calendar.PNG" width="500"/>
+          - Images ![시연이미지](/images/Calendar.PNG "Home")
 
 #  - title: A Little More About Me
 #    layout: text

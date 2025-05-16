@@ -149,6 +149,9 @@ content:
       - layout: right
         description: |           
             ![시연이미지](/images/Home.PNG "Home")
+          
+            ![시연이미지](/images/gameReq.PNG "Home")
+          
             ![시연이미지](/images/Calendar.PNG "Home")
 
 #  - title: A Little More About Me

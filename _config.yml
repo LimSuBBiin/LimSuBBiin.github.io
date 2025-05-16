@@ -148,6 +148,8 @@ content:
     title: 시연 이미지
     content: |
       <img src="images/Home.PNG" width="500"/>
+  - layout: left
+    title: 시연 이미지  
       <img src="images/Calendar.PNG" width="500"/>
 #
 #  - title: A Little More About Me

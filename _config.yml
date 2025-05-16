@@ -102,6 +102,7 @@ content:
           - Postgresql
           - MSA (Microsoft Architecture)
           - AWS  
+          <br><br>
 
 
 
@@ -122,11 +123,12 @@ content:
          - Spring Cloud 모듈을 활용한 MSA(Micro Service Architecture) 개발 with (주)헥토 
          - https://github.com/LimSuBBiin/frontworkspace
          - https://github.com/LimSuBBiin/pj_backworkspace   
+          <br><br>
 
 
 
 
-
+  
 
   - title: Experience(Personal Project)
     layout: list
@@ -156,12 +158,13 @@ content:
       - layout: right
         description: |           
             ![시연이미지](/images/Home.PNG "Home")  
-          
+            <br><br>
         
             ![시연이미지](/images/gameReq.PNG "Home")  
-          
+            <br><br>
           
             ![시연이미지](/images/Calendar.PNG "Home")  
+      
 
 #  - title: A Little More About Me
 #    layout: text

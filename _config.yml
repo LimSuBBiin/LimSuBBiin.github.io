@@ -130,6 +130,7 @@ content:
         title: Basket-Zone
         sub_title: 농구 팀 생성 및 시합 연결 서비스
         caption: 25.3.1 ~ 25.5.11
+        image: images/Home.PNG
         description: | 
           - 기술 스택 : JAVA, SpringBoot, Spring Security, MYSQL, JWT, REST API, ReactJS
           - 성남으로 이사 후, 주변에 같이 농구할 팀이 없어, 농구 팀을 자유롭게 가입하고 남녀노소 차별없이
@@ -142,9 +143,6 @@ content:
             - 시합 생성 및 포지션 선택 신청(PG,SG,SF,F,C)-Modal 기능 구현
             - 내가 생성한 시합, 신청한 시합만 SELECT 기능
             - 각각의 팀에서 신청한 시합 일정 캘린더(세부사항)
-             <img src="images/Home.PNG" alt="Basket-Zone Home" width="600"/>
-             <img src="images/Calendar.PNG" alt="Basket-Zone Calendar" width="600"/>
-        
           
           
 

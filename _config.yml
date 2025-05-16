@@ -105,6 +105,9 @@ content:
 
 
 
+
+
+
   - title: Education
     layout: list
     content:
@@ -119,6 +122,9 @@ content:
          - Spring Cloud 모듈을 활용한 MSA(Micro Service Architecture) 개발 with (주)헥토 
          - https://github.com/LimSuBBiin/frontworkspace
          - https://github.com/LimSuBBiin/pj_backworkspace 
+
+
+
 
 
 
@@ -146,11 +152,18 @@ content:
           
           
 
+
       - layout: right
         description: |           
             ![시연이미지](/images/Home.PNG "Home")
           
+          
+          
+          
             ![시연이미지](/images/gameReq.PNG "Home")
+          
+          
+          
           
             ![시연이미지](/images/Calendar.PNG "Home")
 

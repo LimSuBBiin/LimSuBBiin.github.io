@@ -111,7 +111,7 @@ content:
       - layout: right
         title: 서경대학교 23년도 대학기업 협력형 전문인재 양성 수료
         sub_title: 서경SW아카데미
-        caption: 23.10.12 ~ 24.12.22
+        caption: 23.10.12 ~ 23.12.22
         link: https://swacademy.skuniv.ac.kr/
         description: | # this will include new lines to allow paragraphs
          - 공공데이터 API를 활용한 테마별 추천 서비스
@@ -120,15 +120,15 @@ content:
          - https://github.com/LimSuBBiin/frontworkspace
          - https://github.com/LimSuBBiin/pj_backworkspace 
 
-  - title: Experience
+  - title: Experience(Project)
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Basket-Zone
+        sub_title: 농구 팀 생성 및 시합 연결 서비스
+        caption: 25.3.1 ~ 25.5.11
         description: | 
-          Description of qualification
+        
           
 
   - title: A Little More About Me

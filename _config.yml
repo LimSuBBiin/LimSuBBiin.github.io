@@ -145,8 +145,8 @@ content:
       
 
       - layout: list
-          <img src="images/Home.PNG" width="300"/>
-           <img src="images/Calendar.PNG" width="300"/>
+          <img src="images/Home.PNG" width="400"/>
+          <img src="images/Calendar.PNG" width="400"/>
           
 #
 #  - title: A Little More About Me

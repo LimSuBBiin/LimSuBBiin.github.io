@@ -126,7 +126,7 @@ content:
     layout: right
     link : https://github.com/LimSuBBiin/PBT_PROJECT
     content:
-      - layout: top-right
+      - layout: right
         title: Basket-Zone
         sub_title: 농구 팀 생성 및 시합 연결 서비스
         caption: 25.3.1 ~ 25.5.11
@@ -144,15 +144,15 @@ content:
             - 내가 생성한 시합, 신청한 시합만 SELECT 기능
             - 각각의 팀에서 신청한 시합 일정 캘린더(세부사항)
       
-  - layout: left
-    title: 시연 이미지
-    content: |
-      <img src="images/Home.PNG" width="500"/>
-
-  - layout: left
-    title: 시연 이미지
-    content: |
-      <img src="images/Calendar.PNG" width="500"/>
+#  - layout: left
+#    title: 시연 이미지
+#    content: |
+#      <img src="images/Home.PNG" width="500"/>
+#
+#  - layout: left
+#    title: 시연 이미지
+#    content: |
+#      <img src="images/Calendar.PNG" width="500"/>
 #
 #  - title: A Little More About Me
 #    layout: text

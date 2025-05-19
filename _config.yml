@@ -139,7 +139,7 @@ content:
         sub_title: 농구 시합 연결 서비스
         caption: 25.3.1 ~ 25.5.11
         link : https://github.com/LimSuBBiin/PBT_PROJECT
-        description: | 
+        description: |
           - 기술 스택 : JAVA, SpringBoot, Spring Security, MYSQL, JWT, REST API, ReactJS
           - 성남으로 이사 후, 주변에 같이 농구할 팀이 없어, 농구 팀을 자유롭게 가입하고 남녀노소 차별없이
           경기에 참여할 수 있고, 경기 캘린더를 동기적으로 확인 할 수 있도록 설계한 서비스입니다.

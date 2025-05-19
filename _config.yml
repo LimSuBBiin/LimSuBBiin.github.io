@@ -157,7 +157,7 @@ content:
           
           -ERD
           ![시연이미지](/images/ERD.PNG "ERD")  
-          
+           <img src="/images/ERD.PNG" alt="ERD" width="400"/>
           
 #          - 주요 코드
 #            - 유저가 각각 다른팀에서 신청한 경기들을 SELECT하는 쿼리

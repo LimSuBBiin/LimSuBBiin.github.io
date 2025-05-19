@@ -155,8 +155,9 @@ content:
         
         
           
+          
+              
           -ERD
-          ![시연이미지](/images/ERD.PNG "ERD")  
            <img src="/images/ERD.PNG" alt="ERD" width="400"/>
           
 #          - 주요 코드

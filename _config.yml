@@ -156,7 +156,8 @@ content:
         
           
           
-              
+      - layout: right
+        description: |
           -ERD
            <img src="/images/ERD.PNG" alt="ERD" width="400"/>
           

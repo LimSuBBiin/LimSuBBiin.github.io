@@ -156,19 +156,28 @@ content:
         
           
           
-  - layout: right
-    title: ERD
-    description: |
-      <img src="/images/ERD.PNG" alt="ERD" width="400"/>
+      - layout: right
+        description: |
+          - ERD
+           <img src="/images/ERD.PNG" alt="ERD" width="400"/>
 
-  - layout: right
-    title: 시연 이미지
-    description: |
-      ![시연이미지](/images/Home.PNG "Home")  
-      <br><br>
-      ![시연이미지](/images/gameReq.PNG "Home")  
-      <br><br>
-      ![시연이미지](/images/Calendar.PNG "Home") 
+#          - 주요 코드
+#            - 유저가 각각 다른팀에서 신청한 경기들을 SELECT하는 쿼리
+
+
+
+
+      - layout: right
+        description: |   
+          - 시연 이미지
+            ![시연이미지](/images/Home.PNG "Home")  
+            <br><br>
+        
+            ![시연이미지](/images/gameReq.PNG "Home")  
+            <br><br>
+          
+            ![시연이미지](/images/Calendar.PNG "Home")  
+      
 
 #  - title: A Little More About Me
 #    layout: text

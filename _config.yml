@@ -170,7 +170,6 @@ content:
         description: |   
           - 시연 이미지
             ![시연이미지](/images/Home.PNG "Home")  
-            <img src="/images/Home.PNG" alt="Home" width="400"/>
             <br><br>
         
             ![시연이미지](/images/gameReq.PNG "Home")  

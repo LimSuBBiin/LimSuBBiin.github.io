@@ -158,7 +158,7 @@ content:
           
       - layout: right
         description: |
-          -ERD
+        title: ERD  
            <img src="/images/ERD.PNG" alt="ERD" width="400"/>
           
 #          - 주요 코드
@@ -169,7 +169,7 @@ content:
 
       - layout: right
         description: |   
-          - 시연 이미지
+        title: : 시연 이미지
             ![시연이미지](/images/Home.PNG "Home")  
             <br><br>
         

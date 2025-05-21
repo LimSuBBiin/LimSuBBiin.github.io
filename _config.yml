@@ -161,11 +161,11 @@ content:
           <br><br><br><br>
             - 주요 코드 신청한 경기들의 공지사항(Notice)을 불러오는 로직
           ```java
-          @Transactional
-          public List<NoticeRequestListDto> getMyReqGameNotice(Long memMstIdx){
-          List<Long> teamRequestIdxList = teamMemberQueryRepository.findMyTeamForNotice(memMstIdx);
-          List<GameRequest> myGameRequests = em.createQuery(
-            "SELECT gr FROM GameRequest gr JOIN FETCH gr.teamMember tm WHERE tm.teamRequestIdx IN (:teamRequestIdxList) AND gr.gameRequestStatus = :gameRequestStatus", 
+            @Transactional
+            public List<NoticeRequestListDto> getMyReqGameNotice(Long memMstIdx){
+                List<Long> teamRequestIdxList = teamMemberQueryRepository.findMyTeamForNotice(memMstIdx);
+                List<GameRequest> myGameRequests = em.createQuery(
+                    "SELECT gr FROM GameRequest gr JOIN FETCH gr.teamMember tm WHERE tm.teamRequestIdx IN (:teamRequestIdxList) AND gr.gameRequestStatus = :gameRequestStatus", 
                     GameRequest.class)
                     .setParameter("teamRequestIdxList", teamRequestIdxList)
                     .setParameter("gameRequestStatus", GameRequestStatus.신청)
@@ -177,57 +177,7 @@ content:
                 
            
                 // DTO로 변환
-                        List<NoticeGame> noticeGames = myGameRequests.stream()
-                .map(GameRequest::getNoticeGame)
-                .distinct()
-                .collect(Collectors.toList());
-
-               List<NoticeRequestListDto> dtoList = noticeGames.stream().map(n -> {
-                  Long reqGuardCount = countPosition(n.getNoticeGameIdx(), List.of(Position.PG, Position.SG));
-                  Long reqForwardCount = countPosition(n.getNoticeGameIdx(), List.of(Position.SF, Position.PF));
-                  Long reqCenterCount = countPosition(n.getNoticeGameIdx(), List.of(Position.C));
-                  GameRequestStatus gameRequestStatus = Optional.ofNullable(gameRequestMap.get(n.getNoticeGameIdx()))
-                  .map(GameRequest::getGameRequestStatus)
-                  .orElse(null);
-                  Position position = Optional.ofNullable(gameRequestMap.get(n.getNoticeGameIdx()))
-                  .map(GameRequest::getPosition)
-                  .orElse(null);
-                  
-                  RoleType roleType = em.createQuery(
-                  "SELECT tm.roleType FROM TeamMember tm WHERE tm.member = :mem AND tm.team = :team",
-                  RoleType.class
-                  ).setParameter("mem", n.getMem())
-                  .setParameter("team", n.getTeam())
-                  .getSingleResult();
-                  
-                  
-                  return new NoticeRequestListDto(
-                  n.getNoticeGameIdx(),// <- 팀 멤버 idx
-                  n.getNoticeGameSeq(),
-                  n.getMemNme(),
-                  roleType,                  // 혹은 실제 RoleType 조회 필요
-                  n.getNoticeTitle(),
-                  n.getNoticeLocation(),
-                  n.getNoticeGameDate(),
-                  n.getGuardCount() + n.getForwardCount() + n.getCenterCount(),
-                  n.getGuardCount(),
-                  n.getForwardCount(),
-                  n.getCenterCount(),
-                  reqGuardCount,
-                  reqForwardCount,
-                  reqCenterCount,
-                  n.gameStatusNow(n.getNoticeGameDate()),
-                  n.getHit(),
-                  gameRequestStatus,
-                  n.getTeam().getTeamNme(),
-                  position
-                  );
-                }).collect(Collectors.toList());
-          
-          
-                  return dtoList;
-            }
-            
+                return noticeGames.stream().map(n -> new NoticeRequestListDto(...)).collect(Collectors.toList());
             }
             ```
             - 팀원 정보를 기반으로 사용자가 신청한 경기들의 공지사항을 가져와 포지션별 신청 현황, 팀 정보, 경기 상태 등을 DTO로 변환하는 핵심 로직입니다.

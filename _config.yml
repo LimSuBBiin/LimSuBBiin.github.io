@@ -162,9 +162,8 @@ content:
           
           
 
-      - layout:
-        description: |          
-          
+      - layout: right
+        description: |
             - 주요 코드 
             신청한 경기들의 공지사항(Notice)을 불러오는 로직
           ```java

@@ -143,6 +143,10 @@ content:
           - 기술 스택 : JAVA, SpringBoot, Spring Security, MYSQL, JWT, REST API, ReactJS
           - 성남으로 이사 후, 주변에 같이 농구할 팀이 없어, 농구 팀을 자유롭게 가입하고 남녀노소 차별없이
           경기에 참여할 수 있고, 경기 캘린더를 동기적으로 확인 할 수 있도록 설계한 서비스입니다.
+          <br><br><br><br>          
+
+      - layout: right
+        description: |          
           - 주요 서비스
             - 회원가입 및 로그인 (JWT 기반 인증 및 권한 관리)
               - 안전한 인증 시스템 구현을 위해 JWT(Json Web Token)를 활용하여 무상태(stateless) 인증 및 권한 관리를 효율적으로 처리했습니다.
@@ -186,7 +190,7 @@ content:
             }
             ```
             - 팀원 정보를 기반으로 사용자가 신청한 경기들의 공지사항을 가져와 포지션별 신청 현황, 팀 정보, 경기 상태 등을 DTO로 변환하는 핵심 로직입니다.
-        
+           <br><br><br><br>        
         
           
           
@@ -214,7 +218,7 @@ content:
           - game_request_tbl
             - 시합에 참여하기 위해 팀원들이 신청하는 정보를 관리하는 테이블로, 어느 회원이 어느 포지션으로 시합에 참여 신청했는지 기록합니다.
             - 시합 참여 인원 관리와 포지션 배정을 위한 핵심 데이터입니다.
-
+             <br><br><br><br>
 
       - layout: right
         description: |   

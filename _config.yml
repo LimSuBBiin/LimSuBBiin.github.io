@@ -161,11 +161,11 @@ content:
           <br><br><br><br>
             - 주요 코드 신청한 경기들의 공지사항(Notice)을 불러오는 로직
           ```java
-            @Transactional
-            public List<NoticeRequestListDto> getMyReqGameNotice(Long memMstIdx){
-                List<Long> teamRequestIdxList = teamMemberQueryRepository.findMyTeamForNotice(memMstIdx);
-                List<GameRequest> myGameRequests = em.createQuery(
-                    "SELECT gr FROM GameRequest gr JOIN FETCH gr.teamMember tm WHERE tm.teamRequestIdx IN (:teamRequestIdxList) AND gr.gameRequestStatus = :gameRequestStatus", 
+          @Transactional
+          public List<NoticeRequestListDto> getMyReqGameNotice(Long memMstIdx){
+          List<Long> teamRequestIdxList = teamMemberQueryRepository.findMyTeamForNotice(memMstIdx);
+          List<GameRequest> myGameRequests = em.createQuery(
+            "SELECT gr FROM GameRequest gr JOIN FETCH gr.teamMember tm WHERE tm.teamRequestIdx IN (:teamRequestIdxList) AND gr.gameRequestStatus = :gameRequestStatus", 
                     GameRequest.class)
                     .setParameter("teamRequestIdxList", teamRequestIdxList)
                     .setParameter("gameRequestStatus", GameRequestStatus.신청)

@@ -159,6 +159,27 @@ content:
             - 팀별 시합 일정 캘린더 및 상세 정보 제공
               - 각 팀에서 신청한 시합 일정을 캘린더 형태로 시각화하여 한눈에 일정과 세부 정보를 확인할 수 있도록 UX를 개선했습니다.
           <br><br><br><br>
+            - 주요 코드 신청한 경기들의 공지사항(Notice)을 불러오는 로직
+          ```java
+            @Transactional
+            public List<NoticeRequestListDto> getMyReqGameNotice(Long memMstIdx){
+                List<Long> teamRequestIdxList = teamMemberQueryRepository.findMyTeamForNotice(memMstIdx);
+                List<GameRequest> myGameRequests = em.createQuery(
+                    "SELECT gr FROM GameRequest gr JOIN FETCH gr.teamMember tm WHERE tm.teamRequestIdx IN (:teamRequestIdxList) AND gr.gameRequestStatus = :gameRequestStatus", 
+                    GameRequest.class)
+                    .setParameter("teamRequestIdxList", teamRequestIdxList)
+                    .setParameter("gameRequestStatus", GameRequestStatus.신청)
+                    .getResultList();
+
+                // 각 GameRequest를 NoticeGame과 매핑
+                Map<Long, GameRequest> gameRequestMap = myGameRequests.stream()
+                    .collect(Collectors.toMap(gr -> gr.getNoticeGame().getNoticeGameIdx(), Function.identity()));
+
+                // DTO로 변환
+                return noticeGames.stream().map(n -> new NoticeRequestListDto(...)).collect(Collectors.toList());
+            }
+            ```
+            - 팀원 정보를 기반으로 사용자가 신청한 경기들의 공지사항을 가져와 포지션별 신청 현황, 팀 정보, 경기 상태 등을 DTO로 변환하는 핵심 로직입니다.
         
         
           
@@ -187,11 +208,6 @@ content:
           - game_request_tbl
             - 시합에 참여하기 위해 팀원들이 신청하는 정보를 관리하는 테이블로, 어느 회원이 어느 포지션으로 시합에 참여 신청했는지 기록합니다.
             - 시합 참여 인원 관리와 포지션 배정을 위한 핵심 데이터입니다.
-
-#          - 주요 코드
-#            - 유저가 각각 다른팀에서 신청한 경기들을 SELECT하는 쿼리
-
-
 
 
       - layout: right

@@ -149,13 +149,10 @@ content:
           다겟 및 역할: 민,관,학을 연결하는 연결고리
           
           => 나래 앱서비스 구현
-      - layout: right
-        title: [나래 앱 기획안 보기](https://github.com/LimSuBBiin/LimSuBBiin.github.io/raw/master/assets/나래_앱.pdf)
-        sub_title: PDF 자료
+          
+          📄[나래 앱 기획안 보기](https://github.com/LimSuBBiin/LimSuBBiin.github.io/raw/master/assets/나래_앱.pdf)
+          📄[해커톤 결과 보고서 보기](https://github.com/LimSuBBiin/LimSuBBiin.github.io/raw/master/assets/나래_해커톤.pdf)
 
-      - layout: right
-        title: [해커톤 결과 보고서 보기](https://github.com/LimSuBBiin/LimSuBBiin.github.io/raw/master/assets/나래_해커톤.pdf)
-        sub_title: PDF 자료
           
                   
                   

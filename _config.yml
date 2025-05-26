@@ -119,13 +119,19 @@ content:
         link: https://swacademy.skuniv.ac.kr/
         description: | # this will include new lines to allow paragraphs
          - 공공데이터 API를 활용한 테마별 추천 서비스
-         - Spring boot,React 기반 공공데이터를 활용한 웹서비스 개발
-         - Spring Cloud 모듈을 활용한 MSA(Micro Service Architecture) 개발 with (주)헥토 
+         - Spring Cloud 모듈을 활용한 MSA(Micro Service Architecture) 개발 with (주)헥토-(2인) 
          - https://github.com/LimSuBBiin/frontworkspace
          - https://github.com/LimSuBBiin/pj_backworkspace   
-          <br><br>
+          
 
-
+      - layout: right
+        description: |
+          - 느낀점
+             - MSA의 전체적인 구조와 핵심 설계(API Gateway, Config Server, Micro Service, Feign Client 등)에 대해 체계적으로 이해할 수 있는 좋은 경험이었습니다.
+             - 프로젝트 초반에는 초보 개발자로서 CRUD 구현조차 익숙하지 않아 따라가기 버거웠고, 팀원들에게 많은 부담을 준 것 같아 미안한 마음이 컸습니다.
+             - API 명세서를 작성했음에도 변수나 API 설계에 대한 팀 내 커뮤니케이션이 원활하지 않아 시행착오가 많았고, 프로젝트가 계획대로 완성되지는 못했습니다.
+             - 그럼에도 불구하고, 데드라인이 다가오면서 팀원들과의 협의를 통해 전체적인 구조를 재정비하고 UI 개선에 집중한 결과, 만족할 만한 수준의 프로젝트를 마무리할 수 있었습니다.
+             - 이번 경험을 통해 협업과 소통의 중요성, 그리고 개발자로서의 역량 향상을 위한 방향성을 배울 수 있었습니다.
 
 
   
@@ -168,7 +174,7 @@ content:
           - 나의 역할 :
             - 사회문제 분석을 바탕으로 서비스 전체 콘셉트 및 방향 설정
   
-            - 사용자별 시나리오 기획 및 서비스 흐름도 제작 (Figma, Whimsical 활용)
+            - 사용자별 시나리오 기획 및 서비스 흐름도 제작 (Figma 활용)
   
             - 사용자 유형 분류 및 역할 정의
   

@@ -130,13 +130,12 @@ content:
 
   
 
-  - title: Experience(Personal Project)
+  - title: Experience
     layout: list
-    link : https://github.com/LimSuBBiin/PBT_PROJECT
     content:
       - layout: right
         title : 사회문제 해결을 위한 해커톤(한국정책학회 & 연세대 주최)
-        sub_title : 사회 서비스 및 웹서비스 기획
+        sub_title : 사회 서비스 및 웹서비스 기획 (4인)
         caption: 24.1.15 ~ 24.2.25
         description: |
           수도권 집중화현상과 저출산, 고령화로 전국 228개 시군구 중 89 곳이 인구감소지역으로 지정됨에 따라
@@ -150,8 +149,13 @@ content:
           다겟 및 역할: 민,관,학을 연결하는 연결고리
           
           => 나래 앱서비스 구현
+          
+                  
                   
 
+  - title: Experience(Personal Project)
+    layout: list
+    content:
       - layout: right
         title: Basket-Zone
         sub_title: 농구 시합 연결 서비스

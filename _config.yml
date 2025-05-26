@@ -94,9 +94,6 @@ content:
           - ReactJS
 
 
-
-
-
       - layout: left
         title: 기초 & 활용 경험
         description: |
@@ -104,7 +101,7 @@ content:
           - Postgresql
           - MSA (Microservice Architecture)
           - AWS  
-          <br><br><br><br>
+          <br><br>
 
 
 
@@ -127,11 +124,15 @@ content:
         description: |
           - 느낀점
              - MSA의 전체적인 구조와 핵심 설계(API Gateway, Config Server, Micro Service, Feign Client 등)에 대해 체계적으로 이해할 수 있는 좋은 경험이었습니다.
+          
              - 프로젝트 초반에는 초보 개발자로서 CRUD 구현조차 익숙하지 않아 따라가기 버거웠고, 팀원들에게 많은 부담을 준 것 같아 미안한 마음이 컸습니다.
+          
              - API 명세서를 작성했음에도 변수나 API 설계에 대한 팀 내 커뮤니케이션이 원활하지 않아 시행착오가 많았고, 프로젝트가 계획대로 완성되지는 못했습니다.
+          
              - 그럼에도 불구하고, 데드라인이 다가오면서 팀원들과의 협의를 통해 전체적인 구조를 재정비하고 UI 개선에 집중한 결과, 만족할 만한 수준의 프로젝트를 마무리할 수 있었습니다.
+          
              - 이번 경험을 통해 협업과 소통의 중요성, 그리고 개발자로서의 역량 향상을 위한 방향성을 배울 수 있었습니다.
-              <br><br>br><br>
+          <br><br><br><br>
 
 
   

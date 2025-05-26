@@ -104,10 +104,7 @@ content:
           - Postgresql
           - MSA (Microservice Architecture)
           - AWS  
-          <br><br>
-
-
-
+          <br><br><br><br>
 
 
 
@@ -134,7 +131,7 @@ content:
              - API 명세서를 작성했음에도 변수나 API 설계에 대한 팀 내 커뮤니케이션이 원활하지 않아 시행착오가 많았고, 프로젝트가 계획대로 완성되지는 못했습니다.
              - 그럼에도 불구하고, 데드라인이 다가오면서 팀원들과의 협의를 통해 전체적인 구조를 재정비하고 UI 개선에 집중한 결과, 만족할 만한 수준의 프로젝트를 마무리할 수 있었습니다.
              - 이번 경험을 통해 협업과 소통의 중요성, 그리고 개발자로서의 역량 향상을 위한 방향성을 배울 수 있었습니다.
-              <br><br>
+              <br><br>br><br>
 
 
   
@@ -160,7 +157,9 @@ content:
           
           📄[나래 앱 기획안 보기](https://github.com/LimSuBBiin/LimSuBBiin.github.io/raw/master/assets/나래_앱.pdf)
           📄[해커톤 결과 보고서 보기](https://github.com/LimSuBBiin/LimSuBBiin.github.io/raw/master/assets/나래_해커톤.pdf)
-          <br><br>
+          <br><br><br><br>
+          
+
       - layout: right
         description: |
           - 핵심 목표

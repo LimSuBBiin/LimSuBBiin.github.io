@@ -117,20 +117,14 @@ content:
         caption: 23.10.12 ~ 23.12.22
         link: https://swacademy.skuniv.ac.kr/
         description: | # this will include new lines to allow paragraphs
-         - 공공데이터 API를 활용한 테마별 추천 서비스
+         - 공공데이터 API를 활용한 테마별 추천 서비스      
          - Spring Cloud 모듈을 활용한 MSA(Micro Service Architecture) 개발 with (주)헥토-(2인) 
          - https://github.com/LimSuBBiin/frontworkspace
          - https://github.com/LimSuBBiin/pj_backworkspace   
-          
-
-      - layout: right
-        description: |
-          - 느낀점
+         - learn : 
              - MSA의 전체적인 구조와 핵심 설계(API Gateway, Config Server, Micro Service, Feign Client 등)에 대해 체계적으로 이해할 수 있는 좋은 경험이었습니다.
              - 이번 경험을 통해 협업과 소통의 중요성, 그리고 개발자로서의 역량 향상을 위한 방향성을 배울 수 있었습니다.
-          <br><br><br><br>
-
-
+          <br><br>
   
 
   - title: Experience

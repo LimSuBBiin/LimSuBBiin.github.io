@@ -44,7 +44,7 @@ additional_links:
 about_title: 소 개
 about_profile_image: images/ResumeImage_1.jpg
 about_content: | # this will include new lines to allow paragraphs
-  "개발은 농구와 닮았습니다. 혼자서는 절대 이길 수 없습니다."
+  **"개발은 농구와 닮았습니다. 혼자서는 절대 이길 수 없습니다."**
   
   어릴 적 농구를 하며 팀워크를 익혔고, 지금은 개발자로서 함께 협력하며 일하는 법을 알고 있습니다.
 

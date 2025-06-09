@@ -128,7 +128,7 @@ content:
             - 시합 생성 및 포지션 선택 신청 (PG, SG, SF, F, C) — Modal UI 구현
             - 내가 생성한 시합 및 신청한 시합 조회 기능
             - 팀별 시합 일정 캘린더 및 상세 정보 제공
-            <br><br><br><br>  
+            <br><br>
 
   - title: Experience
     layout: list

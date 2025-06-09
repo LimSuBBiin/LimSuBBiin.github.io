@@ -119,7 +119,6 @@ content:
         description: |
           - 기술 스택 : JAVA, SpringBoot, Spring Security, MYSQL, JWT, REST API, ReactJS
           - 자유로운 팀 가입, 경기 참여, 캘린더 기반 일정 관리 지원 서비스
-
           - 나의 역할
             - 회원가입 및 로그인 (JWT 기반 인증 및 권한 관리)
             - 마이페이지 및 회원 정보 수정
@@ -159,18 +158,12 @@ content:
           **프로토타입 일부 예시**
           - 나래 앱 기획 이미지
             <br>
-            <img src="/images/나래_앱1.jpg" alt="narae0" width="150"/>
             <img src="/images/나래_앱2.jpg" alt="narae0" width="150"/>
             <img src="/images/나래_앱3.jpg" alt="narae0" width="150"/>
             <img src="/images/나래_앱5.jpg" alt="narae0" width="150"/>
-            <img src="/images/나래_앱6.jpg" alt="narae0" width="150"/>
             <img src="/images/나래_앱_px1.jpg" alt="narae0" width="150"/>
-            <img src="/images/나래_앱_px3.jpg" alt="narae0" width="150"/>
-            <img src="/images/나래_앱_px4.jpg" alt="narae0" width="150"/>
             <img src="/images/나래_앱_px6.jpg" alt="narae0" width="150"/>
-            <img src="/images/나래_앱_px7.jpg" alt="narae0" width="150"/>
             <img src="/images/나래_앱_px8.jpg" alt="narae0" width="150"/>
-            <img src="/images/나래_앱_px9.jpg" alt="narae0" width="150"/>
             <img src="/images/나래_앱_px10.jpg" alt="narae0" width="150"/>
           
             <br><br>

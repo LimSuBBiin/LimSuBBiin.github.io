@@ -129,31 +129,6 @@ content:
             - 내가 생성한 시합 및 신청한 시합 조회 기능
             - 팀별 시합 일정 캘린더 및 상세 정보 제공
             <br><br><br><br>  
-  
-  
-
-  - title: Education
-    layout: list
-    content:
-      - layout: right
-        title: 서경대학교 23년도 대학기업 협력형 전문인재 양성 수료
-        sub_title: 서경SW아카데미
-        caption: 23.10.12 ~ 23.12.22
-        link: https://swacademy.skuniv.ac.kr/
-        description: | # this will include new lines to allow paragraphs
-         - 공공데이터 API를 활용한 테마별 추천 서비스      
-         - Spring Cloud 모듈을 활용한 MSA(Micro Service Architecture) 개발 with (주)헥토-(2인) 
-         - https://github.com/LimSuBBiin/frontworkspace
-         - https://github.com/LimSuBBiin/pj_backworkspace
-         
-         - 나의 역할 : MSA 큰 틀 설계, 각종 Micro Service 설계 및 디자인, Front ReactJS            
-          
-         - learn : 
-             - MSA의 전체적인 구조와 핵심 설계(API Gateway, Config Server, Micro Service, Feign Client 등)에 대해 체계적으로 이해할 수 있는 좋은 경험이었습니다.
-             - 이번 경험을 통해 협업과 소통의 중요성, 그리고 개발자로서의 역량 향상을 위한 방향성을 배울 수 있었습니다.
-          <br><br>
-  
-
 
   - title: Experience
     layout: list
@@ -199,30 +174,33 @@ content:
             <img src="/images/나래_앱_px10.jpg" alt="narae0" width="150"/>
           
             <br><br>
-              
-          
+  
 
-  - title: Experience
+  - title: Education
     layout: list
     content:
       - layout: right
-        title: Basket-Zone
-        sub_title: 성남시 농구 시합 연결 서비스
-        caption: 25.3.1 ~ 25.5.11
-        link : https://github.com/LimSuBBiin/PBT_PROJECT
-        description: | 
-          - 기술 스택 : JAVA, SpringBoot, Spring Security, MYSQL, JWT, REST API, ReactJS
-          - 자유로운 팀 가입, 경기 참여, 캘린더 기반 일정 관리 지원 서비스
-                  
-          - 기여
-            - 회원가입 및 로그인 (JWT 기반 인증 및 권한 관리)
-            - 마이페이지 및 회원 정보 수정
-            - 농구 팀 생성 및 가입 요청, 승인 프로세스 관리
-            - 다중 팀 가입 및 팀별 맞춤 설정 지원
-            - 시합 생성 및 포지션 선택 신청 (PG, SG, SF, F, C) — Modal UI 구현
-            - 내가 생성한 시합 및 신청한 시합 조회 기능
-            - 팀별 시합 일정 캘린더 및 상세 정보 제공
-            <br><br>
+        title: 서경대학교 23년도 대학기업 협력형 전문인재 양성 수료
+        sub_title: 서경SW아카데미
+        caption: 23.10.12 ~ 23.12.22
+        link: https://swacademy.skuniv.ac.kr/
+        description: | # this will include new lines to allow paragraphs
+         - 공공데이터 API를 활용한 테마별 추천 서비스      
+         - Spring Cloud 모듈을 활용한 MSA(Micro Service Architecture) 개발 with (주)헥토-(2인) 
+         - https://github.com/LimSuBBiin/frontworkspace
+         - https://github.com/LimSuBBiin/pj_backworkspace
+         
+         - 나의 역할 : MSA 큰 틀 설계, 각종 Micro Service 설계 및 디자인, Front ReactJS            
+          
+         - learn : 
+             - MSA의 전체적인 구조와 핵심 설계(API Gateway, Config Server, Micro Service, Feign Client 등)에 대해 체계적으로 이해할 수 있는 좋은 경험이었습니다.
+             - 이번 경험을 통해 협업과 소통의 중요성, 그리고 개발자로서의 역량 향상을 위한 방향성을 배울 수 있었습니다.
+          <br><br>
+  
+
+
+
+          
 
 #  - title: A Little More About Me
 #    layout: text

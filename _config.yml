@@ -183,14 +183,23 @@ content:
           
           <br>
           **프로토타입 일부 예시**
-          <br>
-          <img src="/images/나래_앱1.jpg" width="100"/>
-          <img src="/images/나래_앱2.jpg" width="100"/>
-          <img src="/images/나래_앱3.jpg" width="100"/>
-          <img src="/images/나래_앱5.jpg" width="100"/>
-          <img src="/images/나래_앱6.jpg" width="100"/>
-          <br><br>
-            
+          - 나래 앱 기획 이미지
+            <br>
+            <img src="/images/나래_앱1.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱2.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱3.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱5.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱6.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱_px1.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱_px3.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱_px4.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱_px6.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱_px7.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱_px8.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱_px9.jpg" alt="narae0" width="150"/>
+            <img src="/images/나래_앱_px10.jpg" alt="narae0" width="150"/>
+          
+            <br><br>
               
           
 
